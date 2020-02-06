@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '10.0'
-s.name = "iOSFilesUtils"
+s.name = "AAUtils"
 s.summary = "We created this framework to write operator overloading function. Which will provide functionality to overtire existing binary operator."
 s.requires_arc = true
 
