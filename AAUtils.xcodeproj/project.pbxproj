@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		CBBD47F523F2861800396CFE /* AAUtilsUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CBBD47F823F2861800396CFE /* Build configuration list for PBXAggregateTarget "AAUtilsUniversal" */;
+			buildPhases = (
+				CBBD47FA23F2862A00396CFE /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AAUtilsUniversal;
+			productName = AAUtilsUniversal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		CB9F97BD23EBEAED006F01E2 /* AAUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9F97B323EBEAED006F01E2 /* AAUtils.framework */; };
 		CB9F97C223EBEAED006F01E2 /* AAUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F97C123EBEAED006F01E2 /* AAUtilsTests.swift */; };
@@ -159,6 +173,9 @@
 					CB9F97BB23EBEAED006F01E2 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					CBBD47F523F2861800396CFE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = CB9F97AD23EBEAED006F01E2 /* Build configuration list for PBXProject "AAUtils" */;
@@ -176,6 +193,7 @@
 			targets = (
 				CB9F97B223EBEAED006F01E2 /* AAUtils */,
 				CB9F97BB23EBEAED006F01E2 /* AAUtilsTests */,
+				CBBD47F523F2861800396CFE /* AAUtilsUniversal */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +214,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBBD47FA23F2862A00396CFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "chmod u+x \"${SRCROOT}/AAUtils/Scripts/Release.sh\"\n\"${SRCROOT}/AAUtils/Scripts/Release.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB9F97AF23EBEAED006F01E2 /* Sources */ = {
@@ -437,6 +475,24 @@
 			};
 			name = Release;
 		};
+		CBBD47F623F2861800396CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3847847G6R;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBBD47F723F2861800396CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3847847G6R;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,6 +519,15 @@
 			buildConfigurations = (
 				CB9F97CB23EBEAED006F01E2 /* Debug */,
 				CB9F97CC23EBEAED006F01E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBBD47F823F2861800396CFE /* Build configuration list for PBXAggregateTarget "AAUtilsUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBD47F623F2861800396CFE /* Debug */,
+				CBBD47F723F2861800396CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
