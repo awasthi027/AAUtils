@@ -16,3 +16,8 @@ Generic of two numbers ⊕| First Number:- [1.4, 2.1, 3.1], Second Number:-[1.6,
 (5.0, 30.0)
 Multification of two Points First Point:- (10.0, 20.0), Second Point:-(-5.0, 10.0)
 (-50.0, 200.0)
+
+
+Unicode symbal Url:-
+
+https://gist.github.com/natecook1000/c5fb2b8cd0967f53770e
