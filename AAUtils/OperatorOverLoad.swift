@@ -103,9 +103,9 @@ precedencegroup GenericMultiPrecedence {
   associativity: left
   higherThan: LogicalConjunctionPrecedence
 }
-infix operator ⊗| : GenericMultiPrecedence
+infix operator ⊛| : GenericMultiPrecedence
 
-public func ⊗|<T: Number>(left: [T], right: [T]) -> [T] { // 4
+public func ⊛|<T: Number>(left: [T], right: [T]) -> [T] { // 4
     var multiple = [T]()
     assert(left.count == right.count, "vector of same length only")
     for (key, _) in left.enumerated() {
@@ -128,7 +128,7 @@ public class OperatonOverLoad {
         let gSecond =  [1.6, 2, 3.2]
         let genericSum = gFirst ⊕| gSecond
         FSLogInfo("Generic of two numbers ⊕| First Number:- \(gFirst), Second Number:-\(gSecond)\n\(genericSum)")
-        let genericMinus = gFirst ⊗| gSecond
+        let genericMinus = gFirst ⊛| gSecond
         FSLogInfo("Generic of Minus numbers ⊕| First Number:- \(gFirst), Second Number:-\(gSecond)\n\(genericMinus)")
         let genericMultiple = gFirst ⊖| gSecond
         FSLogInfo("Generic of Multiple numbers ⊕| First Number:- \(gFirst), Second Number:-\(gSecond)\n\(genericMultiple)")
