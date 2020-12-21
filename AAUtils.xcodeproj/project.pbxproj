@@ -26,6 +26,9 @@
 		CB9F97C423EBEAED006F01E2 /* AAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9F97B623EBEAED006F01E2 /* AAUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB9F97CE23EBEB3C006F01E2 /* OperatorOverLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F97CD23EBEB3C006F01E2 /* OperatorOverLoad.swift */; };
 		CB9F97D323EC08AB006F01E2 /* LogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F97D223EC08AB006F01E2 /* LogHelper.swift */; };
+		CBA4BE922590E3B600C4AA29 /* UIColer+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4BE8F2590E3B600C4AA29 /* UIColer+Extention.swift */; };
+		CBA4BE932590E3B600C4AA29 /* Data+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4BE902590E3B600C4AA29 /* Data+Extention.swift */; };
+		CBA4BE942590E3B600C4AA29 /* BinaryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4BE912590E3B600C4AA29 /* BinaryOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CB9F97C323EBEAED006F01E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB9F97CD23EBEB3C006F01E2 /* OperatorOverLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorOverLoad.swift; sourceTree = "<group>"; };
 		CB9F97D223EC08AB006F01E2 /* LogHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogHelper.swift; sourceTree = "<group>"; };
+		CBA4BE8F2590E3B600C4AA29 /* UIColer+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColer+Extention.swift"; sourceTree = "<group>"; };
+		CBA4BE902590E3B600C4AA29 /* Data+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extention.swift"; sourceTree = "<group>"; };
+		CBA4BE912590E3B600C4AA29 /* BinaryOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,8 @@
 		CB9F97B523EBEAED006F01E2 /* AAUtils */ = {
 			isa = PBXGroup;
 			children = (
+				CBA4BE912590E3B600C4AA29 /* BinaryOperation.swift */,
+				CBA4BE8E2590E3B600C4AA29 /* Extentions */,
 				CB9F97D223EC08AB006F01E2 /* LogHelper.swift */,
 				CB9F97B623EBEAED006F01E2 /* AAUtils.h */,
 				CB9F97B723EBEAED006F01E2 /* Info.plist */,
@@ -104,6 +112,15 @@
 				CB9F97C323EBEAED006F01E2 /* Info.plist */,
 			);
 			path = AAUtilsTests;
+			sourceTree = "<group>";
+		};
+		CBA4BE8E2590E3B600C4AA29 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4BE8F2590E3B600C4AA29 /* UIColer+Extention.swift */,
+				CBA4BE902590E3B600C4AA29 /* Data+Extention.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +259,9 @@
 			files = (
 				CB9F97D323EC08AB006F01E2 /* LogHelper.swift in Sources */,
 				CB9F97CE23EBEB3C006F01E2 /* OperatorOverLoad.swift in Sources */,
+				CBA4BE932590E3B600C4AA29 /* Data+Extention.swift in Sources */,
+				CBA4BE942590E3B600C4AA29 /* BinaryOperation.swift in Sources */,
+				CBA4BE922590E3B600C4AA29 /* UIColer+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
